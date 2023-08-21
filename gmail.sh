@@ -41,7 +41,7 @@ cp main.cf /etc/postfix/sasl_passwd
 
 touch /etc/postfix/sasl_passwd
 
-etc/postfix/sasl_passwd >> [smtp.gmail.com]:587 srivijay:spfmmyhxhgepkyxx
+cat /etc/postfix/sasl_passwd >> [smtp.gmail.com]:587 srivijay:spfmmyhxhgepkyxx
 chmod +x /etc/postfix/sasl_passwd
 #cp sasl_passwd /etc/postfix/sasl_passwd
 
